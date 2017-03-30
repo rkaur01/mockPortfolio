@@ -1,0 +1,108 @@
+body {
+  min-height: 2000px;
+  background-image: url("https://previews.123rf.com/images/tovovan/tovovan1111/tovovan111100608/11258953-C-tricos-de-fondo-sin-fisuras-La-toronja-lim-n-y-naranja-Foto-de-archivo.jpg");
+}
+
+.container-fluid {
+  max-width: 800px;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+  background-size: contain;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#profimg{
+  border-radius: 50%;
+  margin-bottom:20px;
+}
+
+.row{
+  margin-bottom: 25px;
+}
+
+.btn{
+  margin-bottom:10px;
+}
+
+#home{
+  background-color: #FB401A;
+}
+
+#about{
+  background-color: #FF5733;
+}
+
+#portfolio{
+  background-color:#FF7A5E;
+  padding-bottom:10px;
+}
+
+#contact{
+  background-color:#FFAC9B;
+  padding-bottom:10px;
+}
+
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
+
+/*Form Styles*/
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.cont-form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#blurb{
+  margin-left: 25px;
+}
+
+.section {
+    position: relative;
+}
+.section:target {
+    padding-top: 40px;
+}

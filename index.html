@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="../../favicon.ico">
+
+  <title>Raz Kaur</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="http://getbootstrap.com/assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="style.css" rel="stylesheet">
+
+  <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+  <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+  <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+</head>
+
+<body>
+
+  <!-- Fixed navbar -->
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+          aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        <a class="navbar-brand" href="#">Raz Kaur</a>
+      </div>
+      <div id="navbar" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          
+        </ul>
+      </div>
+      <!--/.nav-collapse -->
+    </div>
+  </nav>
+
+  <!-- Begin page content -->
+  <div class="container-fluid">
+    <div id="home">
+      <div class="page-header text-center">
+        <h1>Raz Kaur</h1>
+      </div>
+      <p class="lead text-center">Front-End Developer, Aspiring UX/UI Designer</p>
+      <div class="row row-centered">
+        <div class="btn-group-vertical col-centered">
+          <!-- Put your social buttons here: GitHub LinkedIn FreeCodeCamp -->
+          <a target="_blank" href="https://github.com/rkaur01" class="btn btn-default btn-lg">GitHub</a>
+          <a target="_blank" href="https://www.linkedin.com/in/rasprit-kaur-8b272b8a/" class="btn btn-default btn-lg">LinkedIn</a>
+          <a target="_blank" href="https://www.freecodecamp.com/rkaur01" class="btn btn-default btn-lg">FreeCodeCamp</a>
+        </div>
+      </div>
+    </div>
+
+    <div id="about" class="section">
+      <div class="page-header text-center">
+        <h1>About</h1>
+      </div>
+      <div class="row">
+        <div class="col-md-5 col-md-offset-1">
+          <p class="lead">Raz is a front-end developer with experience in marketing and project management. She is self-taught in Javascript
+            and plans to tackle responsive as well as UX/UI design in order to make her websites look even better. </p>
+        </div>
+        <div class="col-md-5 col-md-offset-1">
+          <img class="img-responsive" id="profimg" src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/4/005/058/188/3dfb69f.jpg"
+            alt="Profile Image">
+        </div>
+      </div>
+      <!-- 2 columns: left for description, right for round image  -->
+    </div>
+
+
+    <div id="portfolio" class="section">
+      <div class="page-header text-center">
+        <h1>Portfolio</h1>
+      </div>
+      <div class="row row-centered">
+        <div class="col-md-5 col-centered">
+          <img class="img-responsive " src="http://media1.santabanta.com/full1/Outdoors/Landscapes/landscapes-284a.jpg
+          " alt="Proj1 ">
+        </div>
+        <div class="col-md-5 col-centered">
+          <img class="img-responsive" src="http://media1.santabanta.com/full1/Outdoors/Landscapes/landscapes-284a.jpg" alt="Proj2">
+        </div>
+      </div>
+      <div class="row row-centered">
+        <div class="col-md-5 col-centered">
+          <img class="img-responsive " src="http://media1.santabanta.com/full1/Outdoors/Landscapes/landscapes-284a.jpg
+          " alt="Proj3 ">
+        </div>
+        <div class="col-md-5 col-centered">
+          <img class="img-responsive" src="http://media1.santabanta.com/full1/Outdoors/Landscapes/landscapes-284a.jpg" alt="Proj4">
+        </div>
+      </div>
+      <!-- 2 columns 2 rows -->
+    </div>
+
+
+    <div id="contact" class="section">
+      <div class="page-header text-center">
+        <h1>Contact</h1>
+      </div>
+      <div class="row row-centered">
+        <div class="col-md-5" id="blurb">
+          <p class="lead">Want to get in touch with me? Feel free to send me an email with any questions anytime!</p>
+        </div>
+        <div class="col-md-5 col-centered cont-form">
+          <form action="/action_page.php">
+
+            <input type="text" id="name" name="name" placeholder="Your name..">
+
+            <input type="text" id="email" name="email" placeholder="Your email address..">
+
+            <input type="text" id="phone" name="phone" placeholder="Your phone number..">
+
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+            <input type="submit" value="Submit">
+          </form>
+
+        </div>
+      </div>
+      <!-- 2 columns: left for blurb, right for contact info/form -->
+    </div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>
+      window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+
+</html>
